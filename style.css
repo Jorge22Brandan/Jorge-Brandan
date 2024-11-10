@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Asets/encabezado_4.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen se mantenga fija al hacer scroll */
+   
+}
+
+#imagen_encabezado{
+    background-color:transparent ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#img_encabezado_contacto{
+    background-color: transparent;
+}
+#fondo_quimica{
+    background-image: url(Asets/encabezado_quimica.jpg);
+}
+
+.encabezado_quimica{
+    background-color:transparent ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-shadow: 2px 2px 2px #e5382b;
+    color: #fffffd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #6e6d68;
+    border-radius: 5px;
+}
+
+
+
+header {
+    background-color: #6bf7b3;
+    display: flex;
+    align-items: center;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Altura de la ventana */
+    
+
+.container, button:hover{
+    background-color: rgb(10, 11, 10);
+    
+}    
+
+.container, a{
+   text-decoration: none; 
+   color: #fffffd;
+   
+}      
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    border-radius: 7px;
+    
+}
+
+.cv-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+        
+}
+
+
+
+nav ul li a:hover {
+    color: #e7dd2b; /* Cambia ek color según mi preferencia */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+article, section, aside {
+    flex: 1;
+    margin: 10px;
+}
+
+.barra_lateral,.seccion, .articulo_principal, .pie{
+    background-color:transparent;
+    border-radius: 6px;
+    border: solid 2px #040404;
+    transition: transform 0.3s ease;
+    
+    }
+
+.barra_lateral:hover, .seccion:hover, .articulo_principal:hover {
+    transform: translateX(15px); /* Mueve la sección 20px hacia adelante */  
+    background-color: green;
+    
+    }    
+
+footer {    
+    text-align: center;
+    background-color: #636262;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    }
+
+.social-icons a {
+    color: rgb(250, 250, 248);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+    }
+.social-icons a:hover {
+    color: #ff6347; /* Cambia el color al pasar el cursor */
+    }
+
+
+.boton{
+    display: inline-block;
+    border:1px solid #f8f9fa;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(244, 227, 71);
+    background-color: #797d7b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.boton:hover {
+    
+    transform: scale(1.2);
+    background-image: url(Asets/encabezado_2.jpg);
+}
+
+/*
+.boton: Define el estilo del enlace para que se vea como un botón, incluyendo el color de fondo,
+el color del texto, el padding, y el borde redondeado.
+.boton:hover: Cambia el color de fondo cuando el usuario pasa el cursor sobre el botón,
+añadiendo un efecto de transición suave.
+*/
+
+p{
+    text-align: left;
+    padding: 3px;
+    color:hsl(0, 20%, 99%); 
+}
+
+
+h2{
+    text-align: center;
+    color: #050505;
+    background-color: #b8b018;
+}
+
+/*Informatorio*/
+.encabezado_informatorio, .encabezado_proyecto{
+    background-color:transparent;
+    border-radius: 5px;
+}
+
+
+
+/*enlace de mi pagina de quimica en Github*/
+#mi_pagina, a{
+    color: #060606;
+    font-weight: bold; 
+}
+#mi_pagina:hover, .texto_quimica:hover a:hover{
+    color: aqua;
+    background-color: #040404;
+
+}
+
+
+.img_uncaus img{
+    width: 100%;
+    height:100%;
+    border-radius: 7px;
+}
+
+
+/*contacto.html*/
+#img_youtube, a img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#img_youtube:hover, a:hover img:hover{
+    background-image: url(Asets/facebook.jpg);
+}
